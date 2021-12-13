@@ -1,0 +1,58 @@
+
+nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li a {
+    line-height: 75px;
+    display: block;
+    height: 75px;
+    border-top: none;
+}
+
+h2 {
+    text-align: initial;
+    padding-left: 4vw;
+}
+
+nav {
+    background-color: initial;
+}
+
+header {
+    align-items: center;
+}
+
+section {
+    display: flex;
+}
+.flex {
+    justify-content: center;
+}
+
+button{
+    display: initial;
+    border-radius: 9px;
+    border-width: 0;
+    width: 211.93px;
+    height: 31.26px;
+    padding: 5px;
+    background-color: #FFAC71;
+    font-family: 'Montserrat';
+}
+
+button:hover {
+    background-color: #fc8d3e;
+}
+
+.flex-b {
+    justify-content: space-around;
+    display: flex;
+}
+
+body {
+    max-width: 1500px;
+    margin: auto;
+}
+

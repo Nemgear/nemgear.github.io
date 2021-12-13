@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'PhosphatePro';
+    src: url(fonts/PhosphatePro-Solid.otf);
+}
+
+.logo {
+    padding-top: 2vw;
+    
+    width: 200px;
+    height: auto;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+h2 {
+    font-family: 'PhosphatePro';
+    color: #FFAC71;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+nav {
+  overflow: hidden;
+  background-color: none;
+}
+
+nav a { 
+    text-decoration: none;
+    display: block;
+}
+
+nav a:enabled {
+    color: #8159F3;
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+header .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 481px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      padding-right: 4vw;
+    }
+  }
+
+  @media screen and (max-width: 481px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      
+    }
+    .topnav.responsive a {
+      float: none;
+      background-color: #000000;
+      display: block;
+      text-align: center;
+      
+    }
+  }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    padding-left: 0px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: #848484;
+    color: #FFAC71;
+}
+
+body {
+    background-color: rgb(254, 240, 205, 0.7);
+    text-decoration: #848484;
+    max-width: 1240px;
+}
+
+nav a:hover {
+    color: #8159F3;
+}
+
+.tête {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+section {
+    max-width: 100%;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+button {
+    display: none;
+}
+
+.ima {
+    padding: 4vw;
+}
+
+.fleur:hover{
+    box-shadow: 2vw 2vw 10px #F6286299;
+}
+
+.site:hover{
+    box-shadow: 2vw 2vw 10px #EB8FD099;
+}
+
+.photo:hover{
+    box-shadow: 2vw 2vw 10px #0A0A0A99;
+}
+
+.annu:hover{
+    box-shadow: 2vw 2vw 10px #96C6C099;
+}
